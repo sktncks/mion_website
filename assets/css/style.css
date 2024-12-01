@@ -1,0 +1,36 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* 스크롤바 숨김 */
+    scroll-behavior: smooth;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+/* 첫 번째 섹션 */
+.section-1 {
+    background-image: url('../images/Main_1.jpg'); /* 첫 번째 배경 이미지 */
+}
+
+/* 두 번째 섹션 */
+.section-2 {
+    background-image: url('../images/Main_2_biodegradable.jpg'); /* 두 번째 배경 이미지 */
+}
